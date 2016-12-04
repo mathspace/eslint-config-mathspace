@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-mathspace",
+  "version": "0.0.0",
+  "description": "Mathspace's ESLint config",
+  "main": "index.js",
+  "repository": "git@github.com:mathspace/eslint-config-mathspace.git",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "eslint": ">= 3.6",
+    "eslint-config-airbnb": ">= 11.1",
+    "eslint-config-airbnb-base": ">= 7.1",
+    "eslint-plugin-flowtype": ">= 2.25",
+    "eslint-plugin-import": ">= 1.16",
+    "eslint-plugin-jsx-a11y": ">= 2.2",
+    "eslint-plugin-react": ">= 6.2"
+  }
+}
