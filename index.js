@@ -13,6 +13,10 @@ module.exports = {
     "arrow-parens" : [0, "as-needed"],
     "flowtype/define-flow-type": "error",
     "flowtype/object-type-delimiter": ["error", "semicolon"],
+    "flowtype/require-valid-file-annotation": [
+      2,
+      "always"
+    ],
     "flowtype/semi": "error",
     "flowtype/space-after-type-colon": [
       "error",
