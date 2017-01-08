@@ -4,11 +4,11 @@ Install the require peer dependencies:
 
 ```bash
 # ESLint
-npm i eslint -D
+npm i eslint babel-eslint -D
 # Plugins
-npm i eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react -D
+npm i eslint-plugin-flowtype eslint-plugin-import@1.16.0 eslint-plugin-jsx-a11y@2.2.3 eslint-plugin-react -D
 # Airbnb configs
-npm i eslint-config-airbnb-base eslint-config-airbnb -D
+npm i eslint-config-airbnb-base@7.1.0 eslint-config-airbnb@11.1.0 -D
 ```
 
 Install the Mathspace config:
