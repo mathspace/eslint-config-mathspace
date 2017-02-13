@@ -41,6 +41,7 @@ module.exports = {
         "maxEOF": 0
       }
     ],
+    "no-nested-ternary": "off",
     "no-warning-comments": [
       "error",
       {
