@@ -2,12 +2,21 @@ module.exports = {
   "env": {
     "browser": true
   },
-  "extends": "airbnb",
+  "extends": [
+    "airbnb",
+    // These prettier configs are used to disable inherited rules that conflict
+    // with the way prettier will format code. Full info here:
+    // https://github.com/prettier/eslint-config-prettier
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
   "parser": "babel-eslint",
   "plugins": [
     "flowtype",
     "import",
-    "react"
+    "react",
+    "prettier"
   ],
   "rules": {
     "arrow-parens" : [0, "as-needed"],
@@ -58,6 +67,15 @@ module.exports = {
       }
     ],
     "react/no-unused-prop-types": "off",
-    "no-confusing-arrow": "off"
+    "no-confusing-arrow": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        // Options to pass to prettier: https://github.com/prettier/prettier#api
+        "singleQuote": true,
+        "trailingComma": "all"
+      },
+      "@prettier"
+    ]
   }
 };
