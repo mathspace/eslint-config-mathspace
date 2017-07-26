@@ -30,6 +30,10 @@ module.exports = {
     ],
     "flowtype/use-flow-type": "error",
     "import/no-duplicates": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["**/test.jsx", "**/demo.jsx",  "**/*.demo.jsx", "**/demo/*.jsx"] }
+    ],
     "no-duplicate-imports": "off",
     "no-nested-ternary": "off",
     "no-warning-comments": [
