@@ -51,8 +51,7 @@ module.exports = {
         // Options to pass to prettier: https://github.com/prettier/prettier#api
         "singleQuote": true,
         "trailingComma": "all"
-      },
-      "@prettier"
+      }
     ]
   }
 };
