@@ -45,6 +45,7 @@ module.exports = {
       }
     ],
     "react/no-unused-prop-types": "off",
+    "react/prop-types": "off",
     "prettier/prettier": [
       "error",
       {
