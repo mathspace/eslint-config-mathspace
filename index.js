@@ -36,14 +36,7 @@ module.exports = {
     ],
     "no-duplicate-imports": "off",
     "no-nested-ternary": "off",
-    "no-warning-comments": [
-      "error",
-      {
-        "terms": [
-          "fixme"
-        ]
-      }
-    ],
+    "no-warning-comments": "warn",
     "react/no-unused-prop-types": "off",
     "react/prop-types": "off",
     "prettier/prettier": [
