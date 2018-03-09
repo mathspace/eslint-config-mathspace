@@ -5,7 +5,6 @@
   "main": "index.js",
   "repository": "git@github.com:mathspace/eslint-config-mathspace.git",
   "license": "MIT",
-  "private": true,
   "peerDependencies": {
     "eslint": ">= 3.6",
     "eslint-config-airbnb": ">= 11.1",
