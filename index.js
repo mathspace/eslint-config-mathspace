@@ -46,6 +46,11 @@ module.exports = {
     ],
     "react/no-unused-prop-types": "off",
     "react/prop-types": "off",
+    "react/jsx-curly-brace-presence": [
+      "error",
+      "never"
+    ],
+    "react/require-extension": "off",
     "prettier/prettier": [
       "error",
       {
