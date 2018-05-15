@@ -51,6 +51,18 @@ module.exports = {
       "never"
     ],
     "react/require-extension": "off",
+    "react/sort-comp": [
+      "error",
+      {
+        "order": [
+          "type-annotations",
+          "static-methods",
+          "lifecycle",
+          "everything-else",
+          "render"
+        ]
+      }
+    ],
     "prettier/prettier": [
       "error",
       {
