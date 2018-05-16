@@ -34,6 +34,17 @@ module.exports = {
       "error",
       { "devDependencies": ["**/test.jsx", "**/demo.jsx",  "**/*.demo.jsx", "**/demo/*.jsx"] }
     ],
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          ["builtin", "external"],
+          "internal",
+          ["parent", "sibling", "index"]
+        ],
+        "newlines-between": "always"
+      }
+    ],
     "no-duplicate-imports": "off",
     "no-nested-ternary": "off",
     "no-warning-comments": [
