@@ -45,6 +45,7 @@ module.exports = {
         "newlines-between": "always"
       }
     ],
+    "import/prefer-default-export": "off",
     "no-duplicate-imports": "off",
     "no-nested-ternary": "off",
     "no-warning-comments": [
