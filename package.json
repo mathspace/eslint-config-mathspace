@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mathspace",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Mathspace's ESLint config",
   "main": "index.js",
   "repository": "git@github.com:mathspace/eslint-config-mathspace.git",
